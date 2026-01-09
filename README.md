@@ -22,6 +22,11 @@ Main features:
 ├── steg_image.c/.h     # Image steganography (LSB)
 ├── display_sdl.c/.h    # Graphical display using SDL2 (bonus)
 ├── Makefile            # Project compilation
+├── images/             # Test images
+│   ├── input.png
+│   ├── secret.png
+│   ├── stego_img.png
+│   └── extracted.png
 └── README.md           # Project documentation
 ````
 
@@ -109,6 +114,27 @@ The program is executed from the command line using the following commands (note
 - The secret image must be smaller than the cover image, as the storage capacity depends on the number of available pixels.
 - When hiding an image, a color depth reduction is applied to limit the visual impact on the cover image.
 - Steganography algorithms use only the least significant bits (LSB) of the RGB channels.
+
+---
+
+## Example – Image Steganography
+
+Below is an example of image steganography using the LSB method.
+
+- **Cover image:** `input.png`
+- **Secret image:** `secret.png`
+- **Stego image:** `stego_img.png`
+- **Extracted image:** `extracted.png`
+
+### Comparison
+
+| Cover image | Stego image |
+|------------|-------------|
+| ![](images/input.png) | ![](images/stego_img.png) |
+
+### Extracted Secret Image
+
+![Extracted image](images/extracted.png)
 
 ---
 
