@@ -23,7 +23,7 @@ Main features:
 ├── display_sdl.c/.h    # Graphical display using SDL2 (bonus)
 ├── Makefile            # Project compilation
 └── README.md           # Project documentation
-```
+````
 
 ---
 
