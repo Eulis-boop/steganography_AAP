@@ -24,6 +24,7 @@ Main features:
 ├── Makefile            # Project compilation
 ├── images/             # Test images
 │   ├── input.png
+│   ├── output.png
 │   ├── secret.png
 │   ├── stego_img.png
 │   └── extracted.png
@@ -130,11 +131,11 @@ Below is an example of image steganography using the LSB method.
 
 | Cover image | Stego image |
 |------------|-------------|
-| ![](images/input.png) | ![](images/stego_img.png) |
+| ![](Images/input.png) | ![](Images/stego_img.png) |
 
 ### Extracted Secret Image
 
-![Extracted image](images/extracted.png)
+![Extracted image](Images/extracted.png)
 
 ---
 
